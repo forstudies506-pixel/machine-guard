@@ -1,0 +1,13 @@
+# MachineGuard dependencies
+# Install with:  pip install -r requirements.txt
+# Versions pinned to what the project was built and tested against.
+
+streamlit==1.62.0
+pandas==3.0.5
+numpy==2.5.2
+scikit-learn==1.9.0
+shap==0.52.0          # per-reading SHAP explanations; app still runs without it
+
+# --- api.py only (the 3D front end's backend); Streamlit app does not need these
+flask==3.1.3
+flask-cors==6.0.5
